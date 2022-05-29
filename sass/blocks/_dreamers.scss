@@ -1,0 +1,94 @@
+.dreamers {
+    min-height: 700px;
+    background: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 52px;
+        &_title {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            color: #000000;
+        }
+        &_btn {}
+    }
+    &__item {
+        &_block {
+            width: 90%;
+            &_title {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                margin-top: 20px;
+            }
+            &_descr {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                width: 320px;
+                margin: 0 auto;
+            }
+            &_last {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #999999;
+                margin-top: 44px;
+                &_first {
+                    margin-top: 20px;
+                }
+            }
+            &_divider {
+                width: 310px;
+                height: 5px;
+                background: linear-gradient(0deg, #03BAFE, #03BAFE), linear-gradient(0deg, #F7EFEF, #F7EFEF), #F7EFEF;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+            &_sum {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                margin-top: 10px;
+                span {
+                    color: #999999;
+                }
+            }
+        }
+    }
+    &__block {
+        background: #EBFAFF;
+        padding: 45px 0;
+        margin-top: 60px;
+        &_text {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+            text-align: center;
+            color: #0068FF;
+        }
+    }
+}

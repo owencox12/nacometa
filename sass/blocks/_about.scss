@@ -1,0 +1,78 @@
+.about {
+    min-height: 781px;
+    background: #fff;
+    &__title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        color: #000000;
+    }
+    &__item {
+        display: flex;
+        margin-top: 47px;
+        justify-content: space-between;
+        &_text {
+            &_title {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0.2px;
+                color: #000000;
+            }
+            &_descr {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: #000000;
+                width: 1100px;
+                max-height: 0;
+                transition: all .3s;
+                overflow: hidden;
+                margin-top: 20px;
+            }
+        }
+        &_image {
+            cursor: pointer;
+        }
+    }
+    &__questions {
+        margin-top: 128px;
+        &_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            color: #000000;
+        }
+        &_links {
+            display: flex;
+            justify-content: center;
+            &_link {
+                margin: 0 30px;
+                margin-top: 19px;
+                a {
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    text-decoration-line: underline;
+                    color: #03BAFE;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

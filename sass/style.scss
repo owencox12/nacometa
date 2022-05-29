@@ -1,0 +1,18 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/dreamers';
+@import 'blocks/sup';
+@import 'blocks/guy';
+@import 'blocks/possibility';
+@import 'blocks/tell';
+@import 'blocks/about';
+@import 'blocks/footer';
+@import 'blocks/media';

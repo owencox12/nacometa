@@ -1,0 +1,106 @@
+.promo {
+    min-height: 500px;
+    padding-top: 34px;
+    background: url(../../image/bgPromo.png) center center / cover no-repeat;
+    &__header {
+        min-height: 70px;
+        transition: all .3s;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 2000;
+        right: 0;
+        padding-top: 20px;
+        &_active {
+            background: #000;
+            transition: all .3s;
+        }
+        &_wrapper {
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+        }
+        &_burger {
+            display: none;
+            &_login {
+                &_icon {
+                    display: none;
+                }
+            }
+            &_list {
+                display: none;
+            }
+        }
+        &_item {
+            &_logo {
+                cursor: pointer;
+            }
+            &_second {
+                display: flex;
+                align-items: center;
+            }
+            &_select {
+                margin-left: 30px;
+                width: 120px;
+                height: 44px;
+                background: none;
+                border: 1px solid #fff;
+                border-radius: 15px;
+                color: #fff;
+                padding-left: 20px;
+                &_option {
+                    color: #000;
+                    background: none;
+                }
+            }
+            &_login {
+                margin-left: 30px;
+            }
+            &_menu {
+                display: flex;
+                align-items: center;
+                &_type {
+                    margin: 0 16px;
+                    padding-bottom: 6px;
+                    &_active {
+                        border-bottom: 2px solid #FFA200;
+                    }
+                    a {
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: 0.1px;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    &__price {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        padding-top: 100px;
+    }
+    &__descr {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+    &__buttons {
+        display: flex;
+        margin-top: 40px;
+    }
+}

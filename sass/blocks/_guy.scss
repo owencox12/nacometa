@@ -1,0 +1,114 @@
+.guy {
+    min-height: 515px;
+    background: #fff;
+    padding-bottom: 50px;
+    position: relative;
+    &__title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        color: #000000;
+        padding-top: 80px;
+    }
+    &__block {
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.05);
+        border-radius: 20px;
+        width: 360px;
+        height: 325px;
+        margin-top: 60px;
+        &_title {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+            color: #000000;
+            padding-left: 30px;
+            padding-top: 29px;
+        }
+        &_descr {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #000000;
+            width: 300px;
+            padding-left: 30px;
+            margin-top: 16px;
+        }
+        &_info {
+            display: flex;
+            padding-left: 30px;
+            margin-top: 15px;
+            align-items: center;
+            &_name {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: #000000;
+                margin-left: 20px;
+            }
+        }
+    }
+    &__image {
+        position: relative;
+        margin-top: 80px;
+        &_name {
+            position: absolute;
+            bottom: 3%;
+            left: 3%;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+            text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            width: 220px;
+        }
+        &_play {
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            cursor: pointer;
+        }
+    }
+    &__right {
+        position: absolute;
+        right: 20%;
+        top: 30%;
+        z-index: 1000;
+        cursor: pointer;
+        &_second {
+            position: absolute;
+            right: 15%;
+            top: 75%;
+            z-index: 1000;
+            cursor: pointer;
+        }
+    }
+    &__left {
+        position: absolute;
+        left: 17%;
+        top: 30%;
+        z-index: 1000;
+        cursor: pointer;
+    }
+}
+.swiper-pagination {
+    position: relative !important;
+    top: 100% !important;
+    left: 0% !important;
+    z-index: 1000 !important;
+    margin-top: 50px;
+}
